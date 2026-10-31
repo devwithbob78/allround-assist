@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#183c35">
+  <meta name="description" content="AllRound Assist — thoughtful personal and home services. Massage, personal shopping, home cleaning and electrical help.">
+  <title>AllRound Assist | Everyday made easier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A little more ease in your everyday. <span>Now accepting service inquiries</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="AllRound Assist home">
+      <span class="brand-mark">A<span>+</span></span>
+      <span class="brand-name">AllRound <b>Assist</b><small>PERSONAL & HOME SERVICES</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#services">Our services</a>
+      <a href="#about">About</a>
+      <a href="#process">How it works</a>
+      <a class="nav-cta" href="#booking">Request a booking <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> CARE FOR YOU. CARE FOR HOME.</div>
+        <h1>More time for life.<br><em>We’ll handle the rest.</em></h1>
+        <p>From a moment of relaxation to the little things around your home, thoughtful help is just one request away.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#booking">Book a service <span>↗</span></a>
+          <a class="text-link" href="#services">Explore what we do <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="avatar-stack"><i>✦</i><i>⌂</i><i>♡</i></span> Thoughtful service, with care in every detail.</div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" alt="Calm, welcoming modern living room">
+        <div class="image-label"><span>YOUR HOME, YOUR COMFORT</span><b>Everyday ease starts here.</b></div>
+      </div>
+      <div class="hero-ornament">A</div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>✳</span> Personal attention</div>
+      <div><span>⌂</span> Help at home</div>
+      <div><span>♡</span> Care in every detail</div>
+      <div><span>✦</span> Simple booking by email</div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading">
+        <div><div class="eyebrow">WHAT WE CAN HELP WITH</div><h2>Consider it <em>taken care of.</em></h2></div>
+        <p>Choose a service below. Have something a little different in mind? Tell us about it — we’ll discuss the details and pricing by email.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-photo"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85" alt="Relaxing massage therapy setting"><span class="service-number">01</span></div>
+          <div class="service-content"><div class="service-meta">WELLNESS & RELAXATION</div><h3>Massage Therapy</h3><p>A calming, restorative session designed to help you unwind and feel refreshed.</p><div class="price-row"><span>Starting at</span><strong>$65 <small>/ 60 min</small></strong></div><a href="#booking" data-service="Massage Therapy">Request this service <span>↗</span></a></div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85" alt="Personal shopping and fashion selections"><span class="service-number">02</span></div>
+          <div class="service-content"><div class="service-meta">STYLE & ERRANDS</div><h3>Personal Shopper</h3><p>Thoughtful shopping assistance for wardrobe refreshes, gifts, and everyday essentials.</p><div class="price-row"><span>Starting at</span><strong>$35 <small>/ hour</small></strong></div><a href="#booking" data-service="Personal Shopper">Request this service <span>↗</span></a></div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo"><img src="https://images.unsplash.com/photo-1580378828055-8c5b6f4a3f3b?auto=format&fit=crop&w=900&q=85" alt="Bright, tidy home interior"><span class="service-number">03</span></div>
+          <div class="service-content"><div class="service-meta">HOME CARE</div><h3>Home Cleaning</h3><p>Refresh your space with reliable tidying and cleaning for a more comfortable home.</p><div class="price-row"><span>Starting at</span><strong>$75 <small>/ visit</small></strong></div><a href="#booking" data-service="Home Cleaning">Request this service <span>↗</span></a></div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=85" alt="Electrical tools prepared for home repair"><span class="service-number">04</span></div>
+          <div class="service-content"><div class="service-meta">HOME MAINTENANCE</div><h3>Electrical Fixes</h3><p>Help with minor household electrical issues and troubleshooting, subject to safe scope.</p><div class="price-row"><span>Starting at</span><strong>$50 <small>/ assessment</small></strong></div><a href="#booking" data-service="Electrical Fixes">Request this service <span>↗</span></a></div>
+        </article>
+      </div>
+      <p class="pricing-note">Listed rates are starting estimates, not final quotes. Final pricing depends on service scope, duration, travel, and availability. Additional or custom requests are discussed by email before confirmation.</p>
+    <div class="custom-request"><div class="custom-icon">✳</div><div><h3>Need something else?</h3><p>Tell us what you have in mind. We’re happy to discuss a custom request and provide a quote by email.</p></div><a href="#booking">Tell us about it <span>↗</span></a></div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="about-image"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85" alt="Warm, carefully maintained home"></div>
+    <div class="about-copy"><div class="eyebrow">A LITTLE ABOUT US</div><h2>Good help.<br><em>Good energy.</em></h2><p>AllRound Assist was created around a simple idea: life feels better when the things that matter are cared for.</p><p>Whether you need a little time for yourself, a hand with your shopping, a cleaner space, or help with a home task, we aim to make the experience feel easy, respectful, and personal.</p><div class="signature"><span class="signature-mark">A+</span><span><b>AllRound Assist</b><small>Here to make everyday easier.</small></span></div></div>
+  </section>
+
+  <section class="webdev-section">
+    <div class="webdev-inner"><div class="webdev-icon">⌘</div><div><div class="eyebrow">ALSO BY THE FOUNDER</div><h2>Need a website of your own?</h2><p>I also create websites for individuals and small businesses. If you’re looking to bring your idea online, feel free to ask about web development services.</p></div><a class="button button-light" href="#booking" data-service="Website Development Inquiry">Ask about web development <span>↗</span></a></div>
+  </section>
+
+  <section class="section process-section" id="process">
+    <div class="section-heading centered"><div><div class="eyebrow">SIMPLE FROM START TO FINISH</div><h2>How it <em>works</em></h2></div></div>
+    <div class="process-grid"><div><span>01</span><h3>Send your request</h3><p>Choose a service and share a few details through our secure inquiry form.</p></div><div><span>02</span><h3>We email you</h3><p>We’ll reply to discuss availability, any questions, and the final price.</p></div><div><span>03</span><h3>Confirm the details</h3><p>Once everything is agreed, we’ll confirm your appointment or service.</p></div></div>
+  </section>
+
+  <section class="booking-section" id="booking">
+    <div class="booking-intro"><div class="eyebrow"><span class="dot"></span> LET’S GET STARTED</div><h2>Your request.<br><em>Our next step.</em></h2><p>Complete the form and we’ll get back to you by email. Submitting a request does not automatically confirm a booking.</p><div class="email-note"><span>✉</span><div><small>EMAIL CONTACT</small><b>boboscar7854@gmail.com</b></div></div></div>
+    <div class="form-wrap">
+      <!-- SETUP REQUIRED: Replace YOUR_FORMSPREE_ID after creating a free form at formspree.io -->
+      <form id="booking-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+        <div class="form-heading"><h3>Service inquiry</h3><span>* Required</span></div>
+        <div class="form-row"><label for="name">Your full name *</label><input id="name" name="name" type="text" placeholder="e.g. Jordan Smith" required></div>
+        <div class="form-row"><label for="email">Your email address *</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div>
+        <div class="form-row"><label for="service">Which service are you interested in? *</label><select id="service" name="service" required><option value="">Select a service</option><option>Massage Therapy</option><option>Personal Shopper</option><option>Home Cleaning</option><option>Electrical Fixes</option><option>Website Development Inquiry</option><option>Other / Custom Request</option></select></div>
+        <div class="form-row two-col"><div><label for="date">Preferred date</label><input id="date" name="preferred_date" type="date"></div><div><label for="time">Preferred time</label><select id="time" name="preferred_time"><option value="">Flexible</option><option>Morning</option><option>Afternoon</option><option>Evening</option></select></div></div>
+        <div class="form-row"><label for="location">Service location / area *</label><input id="location" name="location" type="text" placeholder="City or neighborhood (full address later)" required></div>
+        <div class="form-row"><label for="details">Tell us a little more</label><textarea id="details" name="details" rows="4" placeholder="Describe what you need, preferred duration, or any questions…"></textarea></div>
+        <input type="hidden" name="_subject" value="New AllRound Assist service inquiry">
+        <button class="button button-dark submit-button" type="submit">Send inquiry <span>↗</span></button>
+        <p class="form-footnote">Your details are used only to respond to your inquiry. Please do not include sensitive personal information.</p>
+        <div id="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer"><a class="brand brand-footer" href="#home"><span class="brand-mark">A<span>+</span></span><span class="brand-name">AllRound <b>Assist</b><small>PERSONAL & HOME SERVICES</small></span></a><p>Thoughtful help for everyday living.</p><a href="mailto:boboscar7854@gmail.com">boboscar7854@gmail.com ↗</a><div class="footer-bottom"><span>© <span id="year"></span> AllRound Assist. All rights reserved.</span><span>Made with care <b>✳</b></span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
