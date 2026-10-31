@@ -36,3 +36,7 @@ The website cannot deliver bookings until this form ID is configured.
 - Home cleaning price depends on home size and scope; listed price is a starting estimate.
 - Service requests are inquiries, not confirmed appointments.
 - Unsplash images load from the internet; visitors need connectivity.
+
+
+## Update note
+This fixed package corrects the mobile navigation JavaScript and replaces the Home Cleaning photo with an alternate Unsplash image URL. Upload the updated `index.html` and `script.js` (and keep `styles.css`) to your existing repository.
